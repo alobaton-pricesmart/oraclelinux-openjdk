@@ -1,0 +1,7 @@
+version: "3"
+services:
+  oraclelinux-openjdk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: alobaton/oraclelinux-openjdk:latest

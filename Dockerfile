@@ -1,4 +1,4 @@
-FROM oraclelinux
+FROM oraclelinux:8.5
 
 ENV JAVA_HOME /usr/lib/jvm/java-openjdk
 
